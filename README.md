@@ -32,39 +32,7 @@ Enter a number: 1234321
 1234321 is a palindrome number
 ```
 
-2. Prime Number or Not
-Prime number is a natural number that is divisible by only 1 and the number itself.
-```
-#include <stdio.h>
-void main()
-{
-    int n, flag = 0;
-    printf("Enter a number: ");
-    scanf("%d", &n);
-    int m = n;
-    if (n == 0 || n == 1)
-        flag = 1;
-    for (int i = 2; i <= n / 2; i++)
-    {
-        if (n % i == 0)
-            flag = 1;
-    }
-    if (flag == 0)
-    {
-        printf("%d is a prime number", m);
-    }
-    else
-    {
-        printf("%d is not a prime number", m);
-    }
-}
-```
-```
-Enter a number: 5
-5 is a prime number
-```
-
-3. Spy Number or Not
+2. Spy Number or Not
 A number is said to be a Spy number if the sum of all the digits is equal to the product of all digits.
 ```
 #include <stdio.h>
@@ -96,7 +64,7 @@ Enter a number: 123
 123 is a spy number
 ```
 
-4. Special Number or Not
+3. Special Number or Not
 A number is said to be a Special number if the sum of digits plus product of digits is equal to the original number.
 ```
 #include <stdio.h>
@@ -128,7 +96,7 @@ Enter a number: 59
 59 is a special number
 ```
 
-5. Harshad/Niven Number or Not
+4. Harshad/Niven Number or Not
 Harshad number or Niven number is a positive integer which is divisible by the sum of its digits.
 ```
 #include <stdio.h>
@@ -159,7 +127,7 @@ Enter a number: 156
 156 is a Harshad/ Niven number
 ```
 
-6. Duck Number or Not
+5. Duck Number or Not
 A Duck number is a positive number which has zeroes present in it.
 ```
 #include <stdio.h>
@@ -193,7 +161,7 @@ Enter a number: 102
 102 is a duck number
 ```
 
-7. Neon Number or Not
+6. Neon Number or Not
 A neon number is a number where the sum of digits of square of the number is equal to the number.
 ```
 #include <stdio.h>
@@ -225,7 +193,7 @@ Enter a number: 9
 9 is a neon number
 ```
 
-8. Automorphic Number or Not
+7. Automorphic Number or Not
 A number is called an automorphic number if and only if the square of the given number ends with the same number itself.
 ```
 #include <stdio.h>
@@ -261,7 +229,7 @@ Enter a number: 25
 25 is an automorphic number
 ```
 
-9. KM Number or Not
+8. KM Number or Not
 A number is said to be a KM number or Special number, if the sum of factorials of the input number's every digit is equal to the same input number.
 ```
 #include <stdio.h>
